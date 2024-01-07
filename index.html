@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-image: url("https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        input{
+            height: 30px;
+            width: 500px;
+        }
+        button{
+            height: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task...">
+        <button onclick="addTask()">Add Task</button>
+        <ol id="taskList"></ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
